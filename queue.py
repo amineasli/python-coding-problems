@@ -13,13 +13,3 @@ class Queue(Generic[T]):
     
     def is_empty(self) -> bool:
         return not self.items
-
-
-if __name__ == '__main__':
-    q = Queue()
-    q.enqueue('Green')
-    q.enqueue('Blue')
-    q.enqueue('White')
-    print(q.is_empty())
-    print(q.dequeue())
-    print(q.dequeue())
