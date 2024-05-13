@@ -16,6 +16,6 @@ class Reverser:
         return output_str
         
 if __name__ == '__main__':
-    reversed_Str = Reverser.do_reverse('part')
-    print(reversed_Str)
+    reversed_str = Reverser.do_reverse('part')
+    print(reversed_str)
             
