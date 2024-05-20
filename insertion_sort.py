@@ -2,8 +2,8 @@ from typing import List
 
 def insertion_sort(list: List[int]) -> List[int]:
     for i in range(1, len(list)):
-        temp = list[i]
-        j = i
+        temp: int = list[i]
+        j: int = i
         
         while j > 0 and list[j-1] > temp:
             # shift item right
